@@ -1,23 +1,4 @@
-# [SAM Coupe](https://en.wikipedia.org/wiki/SAM_Coup%C3%A9) for [MiSTer](https://github.com/MiSTer-devel/Main_MiSTer/wiki)
-
-### Features:
-- Fully functional SAM Coupe with precise CPU and Video timings.
-- Real CPU frequency for ZX mode and full speed (6MHz) for other modes.
-- Turbo up to 24MHz
-- 512KB of original internal memory.
-- Emulation for 4MB of extended memory.
-- Two disk drives.
-- Support for disk formats: EDSK, MGT, IMG.
-- Write support (Drive 1).
-- Original SAM joysticks (same as Sinclair 1 and 2).
-- Kempston joystick (useful for some ZX games).
-- SAA1099 sound chip.
-- SID MOS6581 sound chip.
-- Stereo SAM DAC on LPT1.
-- Mouse.
-
-### Installation:
-Copy the *.rbf file at the root of the SD card.
+# [SAM Coupe](https://en.wikipedia.org/wiki/SAM_Coup%C3%A9) 
 
 ### Notes about supported formats:
 **MGT** is simple sector dump of SAM disks. All disks have the same size 819200 (for 80 track disks).
@@ -61,5 +42,4 @@ Most PC keys are mapped to the same SAM Coupe keys.
 
 **External RAM** enables/disables support for additional 4MB of RAM. Disabling external RAM reduces startup time of some apps. Some apps can gain advantages if this option is enabled. Actual change of this option happens upon reset.
 
-### Download precompiled binaries and system ROMs:
-Go to [releases](https://github.com/MiSTer-devel/SAM-Coupe_MiSTer/tree/master/releases) folder.
+
